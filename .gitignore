@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 / 环境变量 ----
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ---- 模型权重（体积大，走 Release 附件而不是塞进仓库）----
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+*.h5
+*.pb
+*.engine
+*.trt
+
+# ---- 数据集与运行产物 ----
+data/
+datasets/
+outputs/
+runs/
+weights/
+*.mp4
+*.avi
+
+# ---- IDE / 系统 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- 日志 / 缓存 ----
+*.log
+.cache/
